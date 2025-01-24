@@ -7,9 +7,12 @@ int main()
     int p;
     bool ok=1;
     cin>>p;
+    
+    if(p<2) ok=0;
+    
     for(int d=2;d*d<=p && ok;d++) ///O(sqrt(p))
         if(p%d==0) ok=0;
-        
+    
     /*
         if(p%2==0 && p>2 || p<2) ok=0; ///O(sqrt(p)) -> sqrt(p)/2
         else 
