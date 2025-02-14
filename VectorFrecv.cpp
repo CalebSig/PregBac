@@ -19,7 +19,7 @@ int main()
         F[x]++; ///F[i] = de cate ori apare i in sirul dat
     }
 
-    for(int i=100;i<=999;i++)
+    for(int i=100;i<=999;i++) ///mergem pe domeniu 
         if(F[i]==0)
         {
             int d,c=0;
