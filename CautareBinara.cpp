@@ -43,7 +43,7 @@ int main()
     while(st<=dr)
     {
         int mij=(st+dr)/2;
-        if(X[mij]>=y) st=mij+1;
+        if(X[mij]<=y) st=mij+1;
         else dr=mij-1;
     }
     ///raspunsul se afla la oricare dintre dr sau st-1
