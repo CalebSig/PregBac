@@ -23,5 +23,31 @@ int main()
         cout<<ok<<" ";
     }
 
+    /*
+
+    lower bound
+
+    while(st<=dr)
+    {
+        int mij=(st+dr)/2;
+        if(X[mij]>=y) dr=mij-1;
+        else st=mij+1;
+    }
+    ///raspunsul se afla la oricare dintre st sau dr-1
+        */
+
+     /*
+
+    upper bound
+
+    while(st<=dr)
+    {
+        int mij=(st+dr)/2;
+        if(X[mij]>=y) st=mij+1;
+        else dr=mij-1;
+    }
+    ///raspunsul se afla la oricare dintre dr sau st-1
+        */
+
     return 0;
 }
