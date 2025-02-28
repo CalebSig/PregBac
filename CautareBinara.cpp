@@ -13,7 +13,7 @@ int main()
         cin>>y;
         bool ok=0;
         int st=1,dr=n;
-        while(st<=dr && !ok)
+        while(st<=dr && !ok) ///cautare binara pentru sortat crescator. Pentru descrescator se inverseaza semnul de la linia 20
         {
             int mij=(dr+st)/2;
             if(X[mij]==y) ok=1;
